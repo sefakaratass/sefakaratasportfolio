@@ -1,0 +1,71 @@
+.skillsSection {
+    display: flex;
+    padding: 150px 85px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 107px;
+  }
+  .skillsHeading {
+    color: yellow;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+  }
+  .skillsCards {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .skillCard{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: 10.6px;
+    background: #323232;
+    min-height: 250px;
+  }
+  .skillCard:hover {
+    border-bottom: 4px solid #323232;
+  }
+  .skillCard:hover .skills--section--description {
+    color: white;
+  }
+  .skillsImg {
+    display: flex;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10.6px;
+    background: #fff;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .skillsImg > img {
+    width: 100%;
+  }
+  .skillsCardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+  .skillsSectionTitle {
+    color: yellow;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .skillsSectionDescription {
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }

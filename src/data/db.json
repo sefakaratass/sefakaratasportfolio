@@ -1,0 +1,80 @@
+{
+
+    "navbar":[
+        {
+            "src":"/assets/logom.png"
+        }
+    ],
+
+
+
+    "home":[
+        {
+            "span1":"Merhaba,",
+            "span2":"Ben",
+            "span3":"Sefa",
+            "span4":"Website Tasarımcısıyım",
+            "p":"React.js üzerinden projeler yapıyorum"
+        }
+        
+    ],
+
+    "aboutImg":[
+        {
+            "src":"/assets/about-me.png"
+        }
+    ],
+
+
+    "about": [
+        {
+            "aboutTitle":"Hakkımda",
+            "aboutDescription":"Ben Sefa Karataş, 20 yaşındayım. 2022 Bahattin Yıldız Anadolu Lisesi mezunuyum. Aktif olarak Sakarya Uygulamalı Bilimler Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisiyim. Beyaz Bilgisayar şirketinde 1 ay staj gördüm. Aktif olarak Datasoft Yazılım şirketinde stajyerim.",
+            "hobbie1":"Spor yapmayı ve takip etmeyi severim.",
+            "hobbie2":"Yeni yerler gezip keşfetmeyi severim."
+        }
+    ],
+
+
+
+    "skills": [
+        {
+            "id": "1",
+            "src": "/assets/front-end.png",
+            "title":"Front-End",
+            "description":"İyi düzeyde HTML, orta düzeyde CSS, JavaScript, başlangıç sevilerinde PHP ve C# biliyorum ve halihazırda React.js öğreniyorum. "
+        },
+        {
+            "id": "2",
+            "src": "/assets/backend.png",
+            "title":"Back-End",
+            "description":"Başlangıç düzeyinde C# ve Java biliyorum ve kendimi Node.js üzerinde geliştirmeye çalışıyorum. "
+        }
+        
+    ],
+
+    "projects":[
+        
+        {
+            "id": "1",
+            "src": "/assets/proje1.png",
+            "title":"BOOKFOLİO",
+            "description":"Bu proje bir kişisel kütüphane sayfası diyebiliriz. Bu sayfada Boostrap kullanarak kitapların görünümlerini ve CSS kodlarını kullandım. Sayfayı açar açmaz kendi eklediğimiz kitapları ekranda görüyoruz. Ekranın üst tarafında bulunan bir buton ile sitenin temasını koyu ya da aydınlık olarak değiştirebiliyoruz ve bu değişikliğe göre kitapların etkileşiminin rengi de değişmektedir."
+            
+        },
+        {
+            "id": "2",
+            "src": "/assets/Proje2.png",
+            "title":"My Movies",
+            "description":"Bu proje kendi oluşturduğumuz bir database üzerinden kendi film kütüphanemizi oluşturduğumuz bir web sitesi. Sayfada bulunan Add Movie butonuna bastığımız anda karşımıza çıkan formu doldurarak kütüphanemize rahatça istediğimiz filmi ekleyebiliyoruz. Sayfanın üst kısmında bulunan arama çubuğu ile birlikte kütüphanemizde bulunan filmler arasından istediğimiz filmi bulabiliyoruz. Filmlerin altında bulunan Edit ve Delete butonları sayesinde kütüphanemizdeki filmi düzenleyebilir ya da kütüphanemizden tamamen kaldırabiliriz."
+            
+        },
+        {
+            "id": "3",
+            "src": "/assets/proje3.png",
+            "title":"Employees Application",
+            "description":"Bu proje iş yerimizdeki işçilerin bilgilerinin tutulduğu bir tablo içeren bir web sitesi. Tabloda işçinin isim, e-mail, adres ve numara bilgileri tutuluyor. Tablonun sağ üstünde bulunan buton ile birlikte önümüze açılan form sayesinde yeni işçi bilgilerini girerek yeni bir işçi ekleyebiliyoruz. Bir sayfada maksimum 5 işçi görünebiliyor 5 işçiden sonra eklenen her bir işçi bir diğer sayfaya kaydediliyor. Tablonun sağ altında bulunan butonlar ile birlikte diğer sayfalara rahatça geçiş yapılabiliyor. İşçi bilgilerinin sağ tarafında bulunan butonlar yardımı ile hem işçi bilgilerini güncelleyebiliyor hem de silmek istediğimiz işçiyi silebiliyoruz."
+            
+        }
+    ]
+}

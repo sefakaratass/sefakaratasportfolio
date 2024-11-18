@@ -1,0 +1,73 @@
+.projectsSection {
+    display: flex;
+    padding: 150px 85px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 107px;
+  }
+  .projectsTitle {
+    color: yellow;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+  }
+  .projectsCards {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .projectsCard{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: 10.6px;
+    background: #323232;
+    min-height: 250px;
+  }
+  .projectsCard:hover {
+    border-bottom: 4px solid #323232;
+  }
+  .projectsCard:hover .projcetDescription {
+    color: white;
+  }
+  .projectImg {
+    display: flex;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10.6px;
+    background: #fff;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .projectImg > img{
+    width: 100%;
+  }
+
+  .projectCardContent {
+    display: flex;
+    padding: 10pxpx;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+  .projectSectionTitle {
+    color: yellow;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .projcetDescription {
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
